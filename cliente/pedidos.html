@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sweet Experience</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="sabores.html">Sabores</a></li>
+                    <li><a href="adornos.html">Adornos</a></li>
+                    <li><a href="pedidos.html">Pedidos</a></li>
+                </ul>
+            </nav>
+        </section>
+        <header class="encabezadoPrincipal">
+            <div class="titulo">
+                <h1>Nuevo pedido</h1>
+            </div>
+        </header>
+        <main class="mainContenedor">
+            <fieldset class="fiel_form">
+                <form>
+                    <div class="div_form">
+                        <div class="form_group">
+                            <label for="input_nombre">Nombre</label>
+                            <input type="text" id="input_nombre" name="input_nombre" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="contenedor-col-2">
+                            <div class="form_group">
+                                <label for="input_telefono">Teléfono</label>
+                                <input type="text" id="input_telefono" name="input_telefono" placeholder="Ingrese su teléfono">
+                            </div>
+                            <div class="form_group">
+                                <label for="input_email">Email</label>
+                                <input type="email" id="input_email" name="input_email" placeholder="Ingrese su correo">
+                            </div>
+                        </div>
+                        <div class="contenedor-col-2">
+                            <div class="form_group">
+                                <label for="select_sabor">Sabores</label>
+                                <select id="select_sabor">
+                                    <option value="1">Chocolate</option>
+                                    <option value="2">Vainilla</option>
+                                    <option value="3">Limón</option>
+                                    <option value="4">Café</option>
+                                    <option value="5">Fresa</option>
+                                    <option value="6">Zanahoria</option>
+                                </select>
+                            </div>
+                            <div class="form_group">
+                                <label for="select_adorno">Adornos</label>
+                                <select id="select_adorno">
+                                    <option value="1">Fondant</option>
+                                    <option value="2">Crema pastelera</option>
+                                    <option value="3">Merengue</option>
+                                    <option value="4">Adornos artificiales</option>
+                                    <option value="5">Frutas</option>
+                                    <option value="6">Glaseado</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form_group">
+                            <label for="input_descripcion">Descripción general del pastel</label>
+                            <textarea>
+        
+                            </textarea>
+                        </div>
+                        <button type="submit" id="btn_enviar_pedido">Enviar</button>
+                    </div>
+                </form>
+              </fieldset>
+        </main>
+        <footer class="piePagina">
+            <p>
+                Designed By Naomi Ortiz ©2022
+            </p>
+            
+        </footer>
+    
+        
+    </body>
+</html>
